@@ -8,3 +8,4 @@ http://natas15.natas.labs.overthewire.org/
 * Try guessing what username exists.
 * If you are told that the input is not dynamic by sqlmap, double check you are sending it correctly. Manually figure out what the "true" (found) and "false" (not found) response looks like and pass the `--string` parameter accordingly.
 * Ensure you nudge sqlmap to try harder (more levels).
+* How can you then dump the table to get the password of users?
