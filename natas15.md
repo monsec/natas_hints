@@ -9,4 +9,5 @@ http://natas15.natas.labs.overthewire.org/
 * If you are told that the input is not dynamic by sqlmap, double check you are sending it correctly. Manually figure out what the "true" (found) and "false" (not found) response looks like and pass the `--string` parameter accordingly.
 * Ensure you nudge sqlmap to try harder (more levels).
 * You might need to tell sqlmap `--ignore-code=401` because some of the injections might break the authentication.
+* sqlmap might remember things in `~/.sqlmap`, so delete that if you are getting wrong things.
 * How can you then dump the table to get the password of users?
